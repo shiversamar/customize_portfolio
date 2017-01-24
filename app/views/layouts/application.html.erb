@@ -5,7 +5,7 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'true' %>
 
 
        <!-- Latest compiled and minified CSS  -->
@@ -14,16 +14,27 @@
     <!-- Font awesome cdn look for Html -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <!-- Animation  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
+    <!-- Animation  -->
      <link rel="stylesheet" href="animate.min.css">
+
+
+     <!-- Custom Fonts -->
+     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 
   </head>
 
-  <body id="page-top" class="index">
+  <!-- <body id="page-top" class="index"> -->
+
+  <body>
     <%= render 'shared/header' %>
     <%= render 'shared/alerts' %>
+
     <%= yield %>
     <%= render 'shared/footer' %>
 
