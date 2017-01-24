@@ -21,7 +21,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'active_skin'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
-
+gem "animate-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
